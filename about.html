@@ -1,0 +1,20 @@
+
+<script>
+class AboutPage extends HTMLElement {
+    async connectedCallback() {
+        let res = await fetch( './layout.html' )
+
+        this.attachShadow( { mode: 'open' } )
+            .innerHTML = await res.text()
+    }
+
+}
+customElements.define( 'about-page', AboutPage)
+</script>
+
+
+
+<about-page>
+    <h1>hhdada</h1>
+</about-page>
+
