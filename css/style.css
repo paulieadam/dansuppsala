@@ -9658,7 +9658,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .timeline .row {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 768px) {
